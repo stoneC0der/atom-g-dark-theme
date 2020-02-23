@@ -2,7 +2,6 @@
 
 namespace Stonec0der\ShortenNums;
 
-use \Test;
 /**
  *
  * ShortenNums Class
