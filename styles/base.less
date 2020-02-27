@@ -340,6 +340,22 @@ atom-text-editor {
   }
 }
 
+.syntax--source.syntax--python {
+  .syntax--entity {
+    &.syntax--name {
+      &.syntax--function {
+        color: @cyan;
+        &.syntax--decorator {
+          color: lighten(@blue-wale-secondary, 5%);
+        }
+      }
+    }
+  }
+
+  .syntax--string.syntax--quoted {
+    color: @dark;
+  }
+}
 
 // Mini editor
 
