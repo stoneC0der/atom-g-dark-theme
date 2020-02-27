@@ -120,6 +120,7 @@ atom-text-editor {
 // variables
 .syntax--variable {
   color: @variable;
+  font-weight: 600;
 
   &.syntax--interpolation {
     color: darken(@variable, 10%);
@@ -207,6 +208,7 @@ atom-text-editor {
 .syntax--support {
   &.syntax--class {
     color: @light-dark-yellow;
+    font-weight: 600;
   }
 
   &.syntax--orther.syntax--namespace {
@@ -232,6 +234,7 @@ atom-text-editor {
 .syntax--entity {
   &.syntax--name.syntax--function {
     color: @cyan;
+    font-weight: 600;
   }
   &.syntax--name.syntax--type {
     color: @light-orange;
@@ -240,9 +243,11 @@ atom-text-editor {
 
   &.syntax--other.syntax--inherited-class {
     color: @green;
+    font-weight: 600;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
     color: @light-orange;
+    font-weight: 600;
   }
 
   &.syntax--name.syntax--section {
@@ -252,6 +257,7 @@ atom-text-editor {
   &.syntax--name.syntax--tag {
     color: @red-orange;
     text-decoration: underline;
+    font-weight: 600;
   }
 
   &.syntax--other.syntax--attribute-name {
@@ -267,6 +273,7 @@ atom-text-editor {
 .syntax--meta {
   &.syntax--class {
     color: @light-orange;
+    font-weight: 600;
   }
 
   &.syntax--link {
