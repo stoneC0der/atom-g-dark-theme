@@ -1,11 +1,15 @@
 {
   "name": "g-dark-theme-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.1.0",
+  "description": "Minimalistic Blue Wale Theme for Atom",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark",
+    "solarize",
+    "silver",
+    "light"
   ],
   "repository": "https://github.com/atom/g-dark-theme-syntax",
   "license": "MIT",
