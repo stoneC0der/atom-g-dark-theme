@@ -7,9 +7,8 @@
     "syntax",
     "theme",
     "dark",
-    "solarize",
-    "silver",
-    "light"
+    "blue",
+    "blue wale"
   ],
   "repository": "https://github.com/atom/g-dark-theme-syntax",
   "license": "MIT",
