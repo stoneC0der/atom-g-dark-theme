@@ -59,7 +59,6 @@ atom-text-editor {
 .syntax--comment {
   color: @dark;
 }
-
 // keyword
 .syntax--keyword {
   color: @light-pink;
@@ -83,7 +82,6 @@ atom-text-editor {
     color: @orange;
   }
 }
-
 // storage
 .syntax--storage {
   &.syntax--type {
@@ -93,7 +91,6 @@ atom-text-editor {
     color: @purple;
   }
 }
-
 // constant
 .syntax--constant {
   color: @pink-orange;
@@ -117,7 +114,6 @@ atom-text-editor {
     color: @syntax-color-php-constant;
   }
 }
-
 // variables
 .syntax--variable {
   color: @variable;
@@ -164,9 +160,6 @@ atom-text-editor {
       color: @dark;
     }
 
-    &.syntax--variable.syntax--php {
-      color: @php-dollar;
-    }
     &.syntax--tag {
       color: @light-pink-2;
     }
@@ -176,6 +169,12 @@ atom-text-editor {
     &.syntax--parameters,
     &.syntax--array {
       color: darken(@green, 5%);
+    }
+
+    &.syntax--variable,
+    &.syntax--array,
+    &.syntax--variable.syntax--php {
+      color: @php-dollar;
     }
 
     &.syntax--heading,
@@ -230,6 +229,9 @@ atom-text-editor {
 
   &.syntax--entity {
     color: @light-pink;
+  }
+  &.syntax--type.syntax--property-name.syntax--css {
+    color: #96ceb4;
   }
 }
 
