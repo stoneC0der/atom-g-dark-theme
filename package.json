@@ -10,7 +10,7 @@
     "blue",
     "blue wale"
   ],
-  "repository": "https://github.com/atom/g-dark-theme-syntax",
+  "repository": "https://github.com/stoneC0der/atom-g-dark-theme",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
