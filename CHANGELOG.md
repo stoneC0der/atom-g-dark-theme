@@ -3,10 +3,17 @@
 * Every bug fixed
 
 ## 0.2.0
-* Minor changes
+* Minor improvements
 
 ## 0.3.0
-* Minor changes
+* Minor improvements
 
 ## 0.4.0
-* Fixed screenshot link
+
+* Minor improvements
+
+## 0.5.0
+
+* Fixed less variables
+* Added default color for property-list-name (css,less,ect).
+* Minor changes
