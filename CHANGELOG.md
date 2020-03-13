@@ -17,3 +17,7 @@
 * Fixed less variables
 * Added default color for property-list-name (css,less,ect).
 * Minor changes
+
+## 0.5.1
+
+* Minor improvements
