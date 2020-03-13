@@ -4,7 +4,7 @@ Atom version of [G Dark Theme](https://marketplace.visualstudio.com/items?itemNa
 
 Next:
 
-- G light
+- G light (Coming Soon)
 - G silver
 - G Black
 - G Deep Dark Green
