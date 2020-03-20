@@ -21,3 +21,7 @@
 ## 0.5.1
 
 * Minor improvements
+
+## 0.5.2
+
+* Minor improvements
