@@ -384,3 +384,116 @@ atom-text-editor {
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
+
+.syntax--source.syntax--json {
+  .syntax--meta {
+    &.syntax--structure {
+      &.syntax--dictionary.syntax--json {
+        font-weight: bold;
+        .syntax--dictionary.syntax--key.syntax--json {
+          color: lighten(@purple, 3%);
+        }
+        .syntax--meta {
+          &.syntax--structure {
+            &.syntax--dictionary.syntax--json {
+              .syntax--dictionary.syntax--key.syntax--json {
+                color: lighten(@light-orange, 10%);
+              }
+              .syntax--meta {
+                &.syntax--structure {
+                  &.syntax--dictionary.syntax--json {
+                    .syntax--dictionary.syntax--key.syntax--json {
+                      color: lighten(@json-level-2, 5%);
+                    }
+                    .syntax--meta {
+                      &.syntax--structure {
+                        &.syntax--dictionary.syntax--json {
+                          .syntax--dictionary.syntax--key.syntax--json {
+                            color: lighten(@json-level-3, 5%);
+                          }
+                          .syntax--meta {
+                            &.syntax--structure {
+                              &.syntax--dictionary.syntax--json {
+                                .syntax--dictionary.syntax--key.syntax--json {
+                                  color: lighten(@json-level-4, 15%);
+                                }
+                                .syntax--meta {
+                                  &.syntax--structure {
+                                    &.syntax--dictionary.syntax--json {
+                                      .syntax--dictionary.syntax--key.syntax--json {
+                                        color: lighten(@json-level-5, 5%);
+                                      }
+                                      .syntax--meta {
+                                        &.syntax--structure {
+                                          &.syntax--dictionary.syntax--json {
+                                            .syntax--dictionary.syntax--key.syntax--json {
+                                              color: lighten(@json-level-6, 5%);
+                                            }
+                                            .syntax--meta {
+                                              &.syntax--structure {
+                                                &.syntax--dictionary.syntax--json {
+                                                  .syntax--dictionary.syntax--key.syntax--json {
+                                                    color: lighten(@json-level-7, 5%);
+                                                  }
+                                                  .syntax--meta {
+                                                    &.syntax--structure {
+                                                      &.syntax--dictionary.syntax--json {
+                                                        .syntax--dictionary.syntax--key.syntax--json {
+                                                          color: lighten(@json-level-8, 5%);
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.syntax--punctuation.syntax--separator.syntax--dictionary.syntax--key-value {
+  color: whitesmoke;
+}
+
+// MARKDOWN
+.syntax--source.syntax--gfm {
+  color: @json-level-5;
+  .syntax--markup {
+    &.syntax--italic {
+      color: @md-italic;
+    }
+    &.syntax--underline.syntax--link {
+      color: @md-link;
+      &.syntax--https.syntax--hyperlink {
+        color: @green;
+      }
+    }
+    &.syntax--heading {
+      color: @md-heading;
+      &.syntax--marker {
+        color: @md-heading-marker;
+      }
+    }
+    &.syntax--raw {
+      color: lighten(@md-raw, 10%);
+    }
+  }
+}
