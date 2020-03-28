@@ -2,7 +2,7 @@
 ---
 Atom version of [G Dark Theme](https://marketplace.visualstudio.com/items?itemName=StoneC0der.g-dark-theme) for vscode.
 
-Optimize for **PHP**, **Blade Template**, **HTML**, **CSS**, **Less**, and **JS (Vanilla)**.
+Optimize for **PHP**, **Blade Template**, **HTML**, **CSS**, **Less**, **JS (Vanilla)**, **JSON** and **Markdown**.
 
 ## Also Check
 
